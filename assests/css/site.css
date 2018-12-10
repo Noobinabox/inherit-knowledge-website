@@ -1,0 +1,166 @@
+body, button, input, select, textarea {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.875rem;
+	line-height: 1.7;
+	color: #777777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
+    margin-top: 0;
+    color: #333333;
+}
+
+h2 {
+	line-height: 1.2;
+}
+
+a {
+	color: #012456;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #777777;
+	transition: all 0.2s linear 0s;
+}
+.top-header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.00)),
+		url('imgs/top-banner-header.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	top: 50%;
+	left: 50%;
+}
+/**** HEADER Styles ****/
+.site-header {
+	background: #e3e3e3;
+	border-bottom: 0px none;
+	line-height: 45px;
+	z-index: 99;
+	color: #293955;
+	transition: all .5s ease-out;
+}
+
+.navbar-nav .nav-item a {
+	color: #293955;
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	padding-left: 17px;
+	padding-right: 17px;
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: lowercase;
+	zoom: 1;
+	letter-spacing: 1px;
+	display: block;
+	position: relative;
+}
+.navbar-brand a{
+	color: #333333;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,..");
+}
+
+.fas.fa-bars {
+	float: right;
+	margin-top: 5px;
+	color: #333333;
+}
+
+.fas.fa-window-close {
+	float: right;
+	color: #333333;
+}
+
+.navbar-toggler>.close {
+}
+
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+	display: none;
+}
+
+
+/**** HERO Styles ****/
+.hero-call-to-action {
+	text-align: center;
+	transition: all .5s linear;
+}
+
+.hero-large-text {
+	color: #fff;
+	font-size: 75px;
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	letter-spacing: 4px;
+	transition: all 0.5s linear;
+	font-weight: 800;
+	text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+	line-height: 1.3;
+	padding: 0 10px;
+}
+
+.hero-md-text {
+	color: #ddd;
+	letter-spacing: 1px;
+	transition: all 0.5s linear;
+	font-weight: 600;
+	text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+	line-height: 1.2;
+	padding: 10px;
+}
+
+.hero {
+	background: rgba(59, 89, 152, 1);
+	height: 40vh;
+	top: 50%;
+	left: 50%;
+	margin-bottom: 40px;
+}
+
+i.fab.fa-d-and-d {
+	font-size: 120px;
+}
+
+@media only screen and (max-width: 800px) {
+	.hero-large-text {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.hero-large-text {
+		font-size: 48px;
+	}
+
+	.hero {
+		height: 70vh;
+	}
+
+	i.fab.fa-d-and-d {
+		font-size: 72px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.hero {
+		height: 50vh;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.hero-large-text {
+		font-size: 36px;
+	}
+}
